@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/titleAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thêm Chi Tiết Sử Dụng"
+        android:textColor="#ff00"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etMaPhong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleAction"
+        android:layout_marginTop="15dp"
+        android:hint="Mã Phòng"
+        android:paddingLeft="20dp"
+        android:textStyle="italic" />
+    <EditText
+        android:textStyle="italic"
+        android:paddingLeft="20dp"
+        android:id="@+id/etMaThietBi"
+        android:layout_marginTop="15dp"
+        android:hint="Mã Thiết Bị"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMaPhong"/>
+
+    <EditText
+        android:id="@+id/etsoLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMaThietBi"
+        android:layout_marginTop="15dp"
+        android:hint="Số Lượng"
+        android:paddingLeft="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:textStyle="italic"
+        android:id="@+id/etngaySD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etsoLuong"
+        android:layout_marginTop="15dp"
+        android:hint="Ngày sử dụng"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/btnThem"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etngaySD"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="Thêm"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/btnHuy"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etngaySD"
+        android:layout_toRightOf="@+id/btnThem"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Hủy"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

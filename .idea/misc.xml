@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/custom_buton.xml" value="0.2075" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/down_arrow.xml" value="0.2075" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/edit_text_custom.xml" value="0.1995" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1425" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1965" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/list_item_custom.xml" value="0.144" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/plush1.xml" value="0.1" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/search.xml" value="0.1965" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/spinner_anim.xml" value="0.2075" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/drawable/spinner_custom.xml" value="0.2" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_ThietBi.xml" value="0.1" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_chitietsudung.xml" value="0.4417767106842737" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_loaithietbi.xml" value="0.4" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_pdfchi_tiet_su_dung.xml" value="0.18385416666666668" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_statitics.xml" value="0.264" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_statitics1.xml" value="0.264" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_statitics2.xml" value="0.264" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_thietbi.xml" value="0.4" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/chitietsudung_item.xml" value="0.4" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/dialog_them_sua.xml" value="0.24635416666666668" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/down_arrow.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/item_loaithietbi.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/layout_modify_delete.xml" value="0.1" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/phonghoc.xml" value="0.24635416666666668" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/phonghoc_item.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/spinner_custom.xml" value="0.19166666666666668" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/them_sua_ctsd_dialog.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/them_sua_dialog.xml" value="0.16" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/them_sua_loaithietbi_dialog.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/them_sua_phonghoc_dialog.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/them_sua_thietbi_dialog.xml" value="0.264" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/thietbi_item.xml" value="0.264" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/thongke1_layout.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/layout/thongke2_layout.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/GiuaKi/QuanLiThietBiTruongHoc/app/src/main/res/menu/menu_popup.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_statitics.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/QuanLiThietBiTruongHoc/app/src/main/res/layout/activity_statitics1.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/QuanLiThietBiTruongHoc/app/src/main/res/layout/thongke1_layout.xml" value="0.25" />
+        <entry key="..\:/PTIT_HCM/Semester_8/Developing apps for mobile devices/QuanLiThietBiTruongHoc/app/src/main/res/layout/thongke2_layout.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

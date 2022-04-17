@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity"
+    android:background="@drawable/background_img">
+
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="48dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="48dp"
+      android:text="@string/tieuDe"
+      android:textAlignment="center"
+      android:textColor="#2A47E6"
+      android:textSize="32sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/btnChungLoai"
+      style="@style/btnHome_style"
+      android:text="@string/chungLoai"
+      app:layout_constraintEnd_toStartOf="@+id/btnThietBi"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+  <Button
+      android:id="@+id/btnThietBi"
+      style="@style/btnHome_style"
+      android:text="@string/thietBi"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/btnChungLoai"
+      app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+  <Button
+      android:id="@+id/btnChiTietSuDung"
+      style="@style/btnHome_style"
+      android:text="@string/ctsd"
+      app:layout_constraintEnd_toStartOf="@+id/btnPhongHoc"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnChungLoai" />
+
+  <Button
+      android:id="@+id/btnPhongHoc"
+      style="@style/btnHome_style"
+      android:text="@string/phongHoc"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/btnChiTietSuDung"
+      app:layout_constraintTop_toBottomOf="@+id/btnThietBi" />
+
+  <Button
+      android:id="@+id/btnThongKe"
+      style="@style/btnHome_style"
+      android:text="@string/thongKe"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnChiTietSuDung" />
+</androidx.constraintlayout.widget.ConstraintLayout>

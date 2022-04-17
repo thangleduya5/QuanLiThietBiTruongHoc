@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">QuanLiThietBiTruongHoc</string>
+    <string name="tieuDe">QUẢN LÍ THIẾT BỊ TRƯỜNG HỌC</string>
+    <string name="chungLoai">Chủng loại</string>
+    <string name="thietBi">Thiết bị</string>
+    <string name="ctsd">Chi tiết sử dụng</string>
+    <string name="phongHoc">Phòng học</string>
+    <string name="thongKe">Thống kê</string>
+
+    <string name="nhapMP">Nhập mã phòng cần tìm kiếm</string>
+    <string name="nhapTL">Nhập tên loại thiết bị cần tìm kiếm</string>
+    <string name="nhapTB">Nhập tên thiết bị cần tìm kiếm</string>
+
+    <string name="thongKe1">Danh sách các thiết bị sử dụng theo loại phòng học</string>
+    <string name="thongKe2">Tổng số lượng sử dụng của từng thiết bị theo năm</string>
+
+    <string name="loaiPhong">Loại phòng</string>
+    <string name="nam">Năm</string>
+
+
+    <string-array name="loaiphong">
+        <item>Phòng lý thuyết</item>
+        <item>Phòng thực hành</item>
+    </string-array>
+
+    <string-array name="tang">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

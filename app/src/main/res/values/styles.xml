@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="spinner_style">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:dropDownWidth">match_parent</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:popupBackground">#305DCD</item>
+        <item name="android:dropDownHeight">wrap_content</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:dropDownSelector">@android:color/white</item>
+    </style>
+
+    <style name="btnHome_style">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_width">132dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_marginTop">48dp</item>
+    </style>
+
+    <style name="llTitle_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:weightSum">14</item>
+        <item name="android:background">@color/bkTheme</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="ivTitle_style">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="tvTitle_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">10</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="etSearchView_style">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">7</item>
+    </style>
+
+    <style name="ivSearchView_style">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/search</item>
+    </style>
+
+    <style name="ivAdd_style">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/plus</item>
+    </style>
+
+    <style name="llItem_style">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">10</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="llInfo_style">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">10</item>
+    </style>
+
+</resources>

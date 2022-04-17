@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".activity.ThietBiActivity">
+
+    <LinearLayout
+        style="@style/llTitle_style">
+        <ImageView
+            style="@style/ivTitle_style"
+            android:id="@+id/ivTrolai"
+            android:src="@drawable/back"/>
+        <TextView
+            style="@style/tvTitle_style"
+            android:text="@string/thietBi"/>
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivExport"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/export_icon" />
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivMenu"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/menu_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:background="@drawable/edit_text_custom"
+            android:id="@+id/edtSearchTB"
+            style="@style/etSearchView_style"
+            android:hint="@string/nhapTB"
+            android:tooltipText="@string/nhapTB">
+        </EditText>
+        <ImageView
+            android:id="@+id/ivSearch"
+            style="@style/ivSearchView_style"/>
+    </LinearLayout>
+
+    <ListView
+        android:background="@drawable/list_item_custom"
+        android:id="@+id/lvDanhsach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"/>
+    <ImageView
+        android:id="@+id/ivThem"
+        style="@style/ivAdd_style"/>
+</LinearLayout>
