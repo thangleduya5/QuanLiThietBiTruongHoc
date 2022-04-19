@@ -213,6 +213,7 @@ public class ChiTietSuDungActivity extends AppCompatActivity {
         Button btnhuy = (Button) dialog.findViewById(R.id.btnHuy);
         titleAction.setText(name);
         btnThem.setText(action);
+
         if(chiTietSuDung != null) {
             edMaPhong.setText(String.valueOf(chiTietSuDung.getMaPhong()));
             edMaThietBi.setText(String.valueOf(chiTietSuDung.getMaTB()));
@@ -236,41 +237,32 @@ public class ChiTietSuDungActivity extends AppCompatActivity {
         btnThem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String maPhong = edMaPhong.getText().toString().trim();
+                String maThietBi = edMaThietBi.getText().toString().trim();
+                String ngaySD = etNgaySD.getText().toString().trim();
+                String soLuongs = edSoLuong.getText().toString();
+                if(maPhong.equals("")){
+                    Toast.makeText(ChiTietSuDungActivity.this, "Vui lòng nhập mã phòng", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(maThietBi.equals("")){
+                    Toast.makeText(ChiTietSuDungActivity.this, "Vui lòng nhập mã thiết bị", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(soLuongs.equals("")){
+                    Toast.makeText(ChiTietSuDungActivity.this, "Vui lòng nhập số lượng", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(ngaySD.equals("")){
+                    Toast.makeText(ChiTietSuDungActivity.this, "Vui lòng nhập ngày sử dụng", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                int soLuong = Integer.parseInt(soLuongs);
                 if(chiTietSuDung != null) {
-                    int soLuong = Integer.parseInt(edSoLuong.getText().toString());
-                    String ngaySD = etNgaySD.getText().toString();
-                    if(ngaySD.matches("")){
-                        etNgaySD.requestFocus();
-                        return;
-                    }
-                    if(String.valueOf(soLuong).matches("")){
-                        edSoLuong.requestFocus();
-                        return;
-                    }
                    update(soLuong, ngaySD, Integer.parseInt(edMaPhong.getText().toString()), Integer.parseInt(edMaThietBi.getText().toString()));
                     dialog.dismiss();
                 }else {
-                    String maPhong = edMaPhong.getText().toString().trim();
-                    String maThietBi = edMaThietBi.getText().toString().trim();
-                    String ngaySD = etNgaySD.getText().toString().trim();
-                    int soLuong = Integer.parseInt(edSoLuong.getText().toString());
                     Toast.makeText(ChiTietSuDungActivity.this, maPhong, Toast.LENGTH_SHORT).show();
-                    if(maPhong.matches("")){
-                        edMaPhong.requestFocus();
-                        return;
-                    }
-                    if(maThietBi.matches("")){
-                        edMaThietBi.requestFocus();
-                        return;
-                    }
-                    if(ngaySD.matches("")){
-                        etNgaySD.requestFocus();
-                        return;
-                    }
-                    if(String.valueOf(soLuong).matches("")){
-                        edSoLuong.requestFocus();
-                        return;
-                    }
                     if(!PhongHoc.checkTonTaiMaPhong(Integer.parseInt(maPhong))){
                         Toast.makeText(ChiTietSuDungActivity.this, "Mã phòng không tồn tại", Toast.LENGTH_SHORT).show();
                         edMaPhong.requestFocus();

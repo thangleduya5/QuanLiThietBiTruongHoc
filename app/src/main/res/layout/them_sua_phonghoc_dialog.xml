@@ -18,8 +18,10 @@
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="Mã phòng"/>
+                android:text="@string/maPhong"/>
             <EditText
+                android:enabled="false"
+                android:inputType="number"
                 android:id="@+id/edtMaphong"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" />
@@ -32,7 +34,7 @@
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="Loại"/>
+                android:text="@string/loai"/>
             <Spinner
                 android:dropDownVerticalOffset="30dp"
                 android:background="@drawable/spinner_custom"
@@ -47,7 +49,7 @@
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="Tầng"/>
+                android:text="@string/tang"/>
             <Spinner
                 android:background="@drawable/spinner_custom"
                 android:id="@+id/spnTang"

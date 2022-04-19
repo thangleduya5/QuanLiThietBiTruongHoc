@@ -21,18 +21,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/titleAction"
         android:layout_marginTop="15dp"
-        android:hint="Mã Phòng"
+        android:hint="@string/maPhong"
+        android:inputType="number"
         android:paddingLeft="20dp"
         android:textStyle="italic" />
+
     <EditText
-        android:textStyle="italic"
-        android:paddingLeft="20dp"
         android:id="@+id/etMaThietBi"
-        android:layout_marginTop="15dp"
-        android:hint="Mã Thiết Bị"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etMaPhong"/>
+        android:layout_below="@+id/etMaPhong"
+        android:layout_marginTop="15dp"
+        android:hint="@string/maTB"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textStyle="italic" />
 
     <EditText
         android:id="@+id/etsoLuong"
@@ -40,19 +43,20 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etMaThietBi"
         android:layout_marginTop="15dp"
-        android:hint="Số Lượng"
+        android:hint="@string/soLuong"
         android:paddingLeft="20dp"
         android:textStyle="italic" />
 
     <EditText
-        android:textStyle="italic"
         android:id="@+id/etngaySD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etsoLuong"
         android:layout_marginTop="15dp"
-        android:hint="Ngày sử dụng"
-        android:paddingLeft="20dp" />
+        android:hint="@string/ngaySD"
+        android:inputType="date"
+        android:paddingLeft="20dp"
+        android:textStyle="italic" />
 
     <Button
         android:background="@drawable/custom_button"

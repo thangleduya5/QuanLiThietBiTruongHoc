@@ -231,7 +231,7 @@ public class ThietBiActivity extends AppCompatActivity {
                 String xuatXu= edtXuatXu.getText().toString().trim();
                 String tenLoai= spnTenLoai.getSelectedItem().toString().trim();
 
-                if(tenTB == null || xuatXu ==null){
+                if(tenTB.equals("") || xuatXu.equals("")){
                     dialogInterface.dismiss();
                     Toast.makeText(ThietBiActivity.this, "Vui lòng điền đầy đủ thông tin", Toast.LENGTH_LONG).show();
                 }else{
@@ -289,7 +289,7 @@ public class ThietBiActivity extends AppCompatActivity {
                 String tenTB = edtTenThietBi.getText().toString().trim();
                 String xuatXu = edtXuatXu.getText().toString().trim();
 
-                if (tenTB == null || xuatXu == null) {
+                if (tenTB.equals("") || xuatXu.equals("")) {
                     dialogInterface.dismiss();
                     Toast.makeText(ThietBiActivity.this, "Vui lòng điền đầy đủ thông tin", Toast.LENGTH_LONG).show();
                 } else {

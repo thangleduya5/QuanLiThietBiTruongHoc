@@ -29,7 +29,7 @@
             android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Loại"/>
+            android:text="@string/loai"/>
         <TextView
             android:id="@+id/tvTenLoais"
             android:layout_width="match_parent"
@@ -44,7 +44,7 @@
             android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Số lượng"/>
+            android:text="@string/soLuong"/>
         <TextView
             android:id="@+id/tvSoLuongs"
             android:layout_width="match_parent"

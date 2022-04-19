@@ -7,6 +7,15 @@
     <string name="phongHoc">Phòng học</string>
     <string name="thongKe">Thống kê</string>
 
+    <string name="maPhong">Mã phòng</string>
+    <string name="loai">Loại</string>
+    <string name="tang">Tầng</string>
+    <string name="maTB">Mã TB</string>
+    <string name="soLuong">Số lượng</string>
+    <string name="ngaySD">Ngày sử dụng</string>
+    <string name="ten">Tên</string>
+    <string name="xuatXu">Xuất xứ</string>
+
     <string name="nhapMP">Nhập mã phòng cần tìm kiếm</string>
     <string name="nhapTL">Nhập tên loại thiết bị cần tìm kiếm</string>
     <string name="nhapTB">Nhập tên thiết bị cần tìm kiếm</string>
@@ -21,6 +30,8 @@
     <string-array name="loaiphong">
         <item>Phòng lý thuyết</item>
         <item>Phòng thực hành</item>
+        <item>Phòng họp báo</item>
+        <item>Phòng hội trường</item>
     </string-array>
 
     <string-array name="tang">

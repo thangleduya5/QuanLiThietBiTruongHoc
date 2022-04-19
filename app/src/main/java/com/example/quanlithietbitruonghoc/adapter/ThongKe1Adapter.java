@@ -43,10 +43,10 @@ public class ThongKe1Adapter extends ArrayAdapter<ThongKe1> {
 
         ThongKe1 thongKe1= thongKe1s.get(position);
 
-        tvMaPhong.setText("Mã phòng: " + String.valueOf(thongKe1.getMaPhong()));
-        tvTenTB.setText("Tên TB: " + thongKe1.getTenTB());
-        tvTenLoai.setText("Tên loại: " + thongKe1.getTenLoai());
-        tvSoluong.setText("Số lượng" + String.valueOf(thongKe1.getSoLuong()));
+        tvMaPhong.setText(String.valueOf(thongKe1.getMaPhong()));
+        tvTenTB.setText(thongKe1.getTenTB());
+        tvTenLoai.setText(thongKe1.getTenLoai());
+        tvSoluong.setText(String.valueOf(thongKe1.getSoLuong()));
 
         return convertView;
     }

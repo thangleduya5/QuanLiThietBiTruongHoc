@@ -191,7 +191,7 @@ public class LoaiThietBiActivity extends AppCompatActivity {
                     Toast.makeText(LoaiThietBiActivity.this, "Tên loại đã tồn tại, vui lòng nhập tên loại mới", Toast.LENGTH_LONG).show();
                     return;
                 }
-                if(tenloaiTB == null ){
+                if(tenloaiTB.equals("") ){
                     dialogInterface.dismiss();
                     showListPH();
                     Toast.makeText(LoaiThietBiActivity.this, "Vui lòng điền đầy đủ thông tin", Toast.LENGTH_LONG).show();

@@ -217,16 +217,20 @@ public class PhongHocActivity extends AppCompatActivity {
                 String loaiPh= spnLoaiphong.getSelectedItem().toString().trim();
                 int tang= Integer.parseInt(spnTang.getSelectedItem().toString());
 
-                if(checkPh(maPH) == false){
-                    dialogInterface.dismiss();
-                    showListPH();
-                    Toast.makeText(PhongHocActivity.this, "Phòng đã tồn tại", Toast.LENGTH_LONG).show();
-                }else{
-                    HomeActivity.dataBase.queryData("INSERT INTO PHONGHOC VALUES('"+maPH+"','"+loaiPh+"','"+tang+"')");
-                    Toast.makeText(PhongHocActivity.this, "Thêm thành công", Toast.LENGTH_LONG).show();
-                    showListPH();
-                    dialogInterface.cancel();
-                }
+//                if(checkPh(maPH) == false){
+//                    dialogInterface.dismiss();
+//                    showListPH();
+//                    Toast.makeText(PhongHocActivity.this, "Phòng đã tồn tại", Toast.LENGTH_LONG).show();
+//                }else{
+//                    HomeActivity.dataBase.queryData("INSERT INTO PHONGHOC VALUES('"+loaiPh+"','"+tang+"')");
+//                    Toast.makeText(PhongHocActivity.this, "Thêm thành công", Toast.LENGTH_LONG).show();
+//                    showListPH();
+//                    dialogInterface.cancel();
+//                }
+                HomeActivity.dataBase.queryData("INSERT INTO PHONGHOC VALUES(null ,'"+loaiPh+"','"+tang+"')");
+                Toast.makeText(PhongHocActivity.this, "Thêm thành công", Toast.LENGTH_LONG).show();
+                showListPH();
+                dialogInterface.cancel();
             }
         });
         dialogBuilder.setNegativeButton("Hủy", new DialogInterface.OnClickListener() {
@@ -286,6 +290,10 @@ public class PhongHocActivity extends AppCompatActivity {
     }
 
     public void Xoamh(String maPh){
+        if(!ChiTietSuDung.checkdeletephonghoc(maPh)){
+            Toast.makeText(PhongHocActivity.this, "Mã phòng đã tồn tại trong chi tiết sử dụng, không thể xóa", Toast.LENGTH_LONG).show();
+            return;
+        }
         AlertDialog.Builder b = new AlertDialog.Builder(this);
         b.setTitle("Cảnh báo!");
         b.setMessage("Bạn có chắc chắn muốn xóa?");

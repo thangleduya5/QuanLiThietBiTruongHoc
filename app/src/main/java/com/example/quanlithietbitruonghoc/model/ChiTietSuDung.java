@@ -69,4 +69,13 @@ public class ChiTietSuDung {
         return nams;
     }
 
+    public static boolean checkdeletephonghoc(String maPH){
+        Cursor check = HomeActivity.dataBase.getData("SELECT * FROM CHITIETSUDUNG WHERE MAPHONG='"+maPH+"'");
+        if(check.moveToNext()){
+            return false;
+        }else{
+            return true;
+        }
+    }
+
 }

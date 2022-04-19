@@ -17,7 +17,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mã Phòng:"
+                    android:text="@string/maPhong"
                     android:textSize="15dp"
                     android:textStyle="bold" />
 
@@ -39,7 +39,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mã Thiết bị:"
+                    android:text="@string/maTB"
                     android:textStyle="bold" />
 
                 <TextView
@@ -67,7 +67,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SL:"
+                    android:text="@string/soLuong"
                     android:textStyle="bold"/>
                 <TextView
                     android:id="@+id/tvSoLuong"

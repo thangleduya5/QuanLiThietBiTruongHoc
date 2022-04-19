@@ -16,7 +16,7 @@
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:textStyle="bold"
-                            android:text="Tên"/>
+                            android:text="@string/ten"/>
                         <EditText
                             android:id="@+id/edtTenThietBi"
                             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:textStyle="bold"
-                            android:text="Xuất xứ"/>
+                            android:text="@string/xuatXu"/>
                         <EditText
                             android:id="@+id/edtXuatXu"
                             android:layout_marginBottom="8dp"
@@ -44,7 +44,7 @@
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:textStyle="bold"
-                            android:text="Loại"/>
+                            android:text="@string/loai"/>
                         <Spinner
                             android:background="@drawable/spinner_custom"
                             android:id="@+id/spnTenLoai"
